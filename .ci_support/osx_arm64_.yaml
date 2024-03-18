@@ -1,5 +1,5 @@
 MACOSX_DEPLOYMENT_TARGET:
-- '10.12'
+- '10.14'
 channel_sources:
 - freecad,conda-forge
 channel_targets:
