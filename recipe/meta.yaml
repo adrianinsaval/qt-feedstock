@@ -59,12 +59,12 @@ test:
     - {{ cdt('libglvnd-glx') }}          # [linux and cdt_name != 'cos6']
   files:
     - test/hello.pro
-    - test/main-qtwebengine.cpp           # [not ppc64le]
+    - test/main-qtwebengine.cpp
     - test/main.cpp
     - test/main.qml
     - test/qml.qrc
     - test/qrc_qml.cpp
-    - test/qtwebengine.pro                # [not ppc64le]
+    - test/qtwebengine.pro
     - xcodebuild
     - xcrun
   commands:
