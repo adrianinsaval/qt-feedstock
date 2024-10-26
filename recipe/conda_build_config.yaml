@@ -1,2 +1,6 @@
 MACOSX_DEPLOYMENT_TARGET:  # [osx]
   - '10.13'                # [osx]
+channel_sources:
+- freecad,conda-forge
+channel_targets:
+- freecad main
