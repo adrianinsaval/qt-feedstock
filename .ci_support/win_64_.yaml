@@ -1,7 +1,7 @@
 channel_sources:
-- conda-forge
+- freecad,conda-forge
 channel_targets:
-- conda-forge main
+- freecad main
 cxx_compiler:
 - vs2019
 target_platform:
